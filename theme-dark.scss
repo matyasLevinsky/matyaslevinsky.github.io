@@ -1,44 +1,38 @@
 /*-- scss:defaults --*/
 
-// Base document colors
-$body-bg: #181818;
-$body-color: lightgrey;
-$link-color: #457EAC;
-$navbar-bg: #1A281F;
-$navbar-fg: #8EB19D;
-$navbar-hl: #F0D2D1;
+$body-bg:        #181818;
+$body-color:     lightgrey;
+$link-color:     #ffffff;
+$navbar-bg:      #a2e436;
+$navbar-fg:      #000000;
+$navbar-hl:      #000000;
 $headings-color: #BFDFCF;
 
-// #ffcf55
+$code-block-bg-alpha: -.8;
+
+/*-- scss:rules --*/
+
+body {
+  --bs-link-color: #ffffff;
+  --bs-link-color-rgb: 255, 255, 255;
+  --bs-link-hover-color: #ffffff;
+}
+
+.navbar {
+  border-color: white;
+}
 
 .dropdown-menu {
   background-color: #8EB19D !important;
 }
 
-.callout.callout-warning.callout {
-  border-color: #ff7518 !important;
-} 
-
-.callout.callout-note.callout {
-  border-color: #2780e3 !important;
-} 
-
-.callout.callout-important.callout {
-  border-color: #ff0039 !important;
-} 
-
-.callout.callout-caution.callout {
-  border-color: #f0ad4e !important;
-} 
-
-.callout.callout-tip.callout {
-  border-color: #3fb618 !important;
-} 
+.callout.callout-warning.callout   { border-color: #ff7518 !important; }
+.callout.callout-note.callout      { border-color: #2780e3 !important; }
+.callout.callout-important.callout { border-color: #ff0039 !important; }
+.callout.callout-caution.callout   { border-color: #f0ad4e !important; }
+.callout.callout-tip.callout       { border-color: #3fb618 !important; }
 
 pre code:not(.sourceCode) {
-    background-color: initial;
-    color: #1dfe94;
+  background-color: initial;
+  color: #7ec8a0;
 }
-
-// Code blocks
-$code-block-bg-alpha: -.8;

@@ -2,7 +2,10 @@ project:
   type: website
   output-dir: "_site"
   
-bibliography: data/website.bib
+bibliography:
+  - data/Website.bib
+  - data/TheAIHypeCycle.bib
+csl: data/apa.csl
 
 website:
   title: "Matyas Levinsky"
@@ -21,28 +24,18 @@ website:
     left:
       - href: index.qmd
         text: "Home"
-      - text: "About Me"
-        menu:
-          - href: about.qmd
-            text: "About Me"
-          - href: cv.qmd
-            text: "Curriculum Vitae"
-      - text: "Data Projects"  
-        menu: 
-          - SlerkaProjekt.qmd
-      - text: "Research Projects"
-        menu:
-          - href: AIHypeCycles.qmd
-            text: "Analyzing AI Hype: Past and Present Booms"
-      - text: "Guides"
-        menu:
-          - text: "Work in progress"
-            
+      - href: cv.qmd
+        text: "CV"
+      - href: projects.qmd
+        text: "Projects"
+      - href: publications.qmd
+        text: "Publications"
 format:
   html:
-    theme: 
-      dark: [cosmo, theme-dark.scss]
-      light: cosmo
+    include-after-body: data/listing-categories.html
+    theme:
+      light: theme-brite.scss
+      dark: [theme-brite.scss, theme-dark.scss]
     toc: true
     toc-expand: true
     toc-location: left
@@ -53,5 +46,5 @@ format:
     fig-height: 6
 
 execute:
-  freeze: auto
+  freeze: true
 

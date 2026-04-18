@@ -1,0 +1,10 @@
+---
+title: "Ochrana chudších vlastníků, motivace stavět i pronajímat. Navrhujeme chytřejší danění nemovitostí"
+date: 2025-04-03
+description: "Proposal for Czech property tax reform shifting the burden from buildings to land values to encourage construction and protect lower-income owners."
+categories: [publication, second author, literature]
+---
+
+We propose a reform of Czech property taxation that shifts the burden from buildings to land values, drawing on land-value tax principles. The reform is designed to protect lower-income homeowners through targeted deductions while encouraging construction and rental supply. I contributed to the distributional analysis estimating household-level fiscal impacts.
+
+[Read the original study →](https://www.paqresearch.cz/post/ochrana-chudsich-vlastniku-motivace-stavet-i-pronajimat-navrhujeme-chytrejsi-daneni-nemovitosti/)

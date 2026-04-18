@@ -1,0 +1,12 @@
+---
+title: "Projects"
+listing:
+  contents: posts/projects
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories, reading-time]
+toc: false
+---
+
+Personal projects I have worked on, separate from my work at PAQ Research.

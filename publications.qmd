@@ -1,0 +1,12 @@
+---
+title: "Publications"
+listing:
+  contents: posts/publications
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories, reading-time]
+toc: false
+---
+
+A selection of studies and analyses I authored or co-authored as part of my work at [PAQ Research](https://www.paqresearch.cz/).

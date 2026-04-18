@@ -1,0 +1,5 @@
+title: Badge shortcode
+version: 1.0.0
+contributes:
+  shortcodes:
+    - badge.lua

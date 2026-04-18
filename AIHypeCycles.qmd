@@ -1,7 +1,9 @@
 ---
-title: "Analyzing AI Hype: Past and Present Booms"  
+title: "Analyzing AI Hype: Past and Present Booms"
 author: "Matáš Levínský"
 date: '2024-03-20'
+description: "Research essay tracing AI hype cycles from the 1950s to the present, using sociology of technology frameworks to situate the current ChatGPT-era excitement."
+categories: [author, literature]
 
 bibliography: data/TheAIHypeCycle.bib
 csl: data/apa.csl

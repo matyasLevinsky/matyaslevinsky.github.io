@@ -1,0 +1,10 @@
+---
+title: "ANO vysálo antisystémové strany. Pětikoalice naráží na malou podporu v chudších mikroregionech"
+date: 2025-10-04
+description: "Electoral analysis of the 2025 Czech parliamentary elections focusing on ANO's consolidation and regional voting patterns."
+categories: [publication, author, data]
+---
+
+An analysis of the 2025 Czech parliamentary elections, tracking how voter turnout shifted across economic micro-regions and how ANO consolidated support by absorbing voters from smaller anti-establishment parties. The governing coalition held its overall numbers but showed a persistent weakness in poorer areas. I worked on the regional breakdown and electoral geography components.
+
+[Read the original study →](https://www.paqresearch.cz/post/ano-vysalo-antisystemove-strany-petikoalice-narazi-na-malou-podporu-v-chudsich-mikroregionech-kde-navic-vzrostla-ucast/)

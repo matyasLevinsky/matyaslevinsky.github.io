@@ -1,0 +1,9 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".listing-category, .quarto-category").forEach(function (el) {
+    if (!el.getAttribute("data-value")) {
+      el.setAttribute("data-value", el.textContent.trim());
+    }
+  });
+});
+</script>

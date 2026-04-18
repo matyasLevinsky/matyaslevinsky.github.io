@@ -1,0 +1,513 @@
+/*-- scss:defaults --*/
+
+// Brite 5.3.8 — Bootswatch
+
+$theme: "brite";
+
+// Color system
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$blue:    #61bcff;
+$indigo:  #828df9;
+$purple:  #be82fa;
+$pink:    #ea4998;
+$red:     #f56565;
+$orange:  #fa984a;
+$yellow:  #ffc700;
+$green:   #68d391;
+$teal:    #2ed3be;
+$cyan:    #22d2ed;
+$lime:    #a2e436;
+
+$primary:       $lime;
+$secondary:     $white;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-200;
+$dark:          $black;
+
+$spacer: 1rem;
+
+// Links
+
+$link-color: $black;
+
+// Components
+
+$border-radius:    .375rem;
+$border-radius-sm: .25rem;
+$border-radius-lg: .5rem;
+
+$component-active-color: $black;
+
+$focus-ring-width:   1px;
+$focus-ring-opacity: 1;
+$focus-ring-color:   $black;
+
+// Fonts
+
+$font-size-base:   .875rem;
+$font-size-sm:     $font-size-base * .875;
+
+$lead-font-weight:     400;
+$headings-font-weight: 500;
+
+$hr-border-width: 2px;
+$hr-opacity:      1;
+
+// Tables
+
+$table-cell-padding-y: .75rem;
+$table-cell-padding-x: .75rem;
+
+$table-border-width: 1px;
+$table-border-color: $black;
+
+$table-hover-bg-factor: 0;
+$table-border-factor:   1;
+$table-bg-scale:        0%;
+
+// Buttons + Forms
+
+$input-btn-padding-y:      .5rem;
+$input-btn-padding-x:      1rem;
+$input-btn-padding-y-sm:   .25rem;
+$input-btn-padding-x-sm:   .75rem;
+$input-btn-font-size-sm:   $font-size-sm;
+$input-btn-padding-y-lg:   .75rem;
+$input-btn-padding-x-lg:   1.25rem;
+$input-btn-font-size-lg:   $font-size-base;
+$input-btn-border-width:   2px;
+
+// Buttons
+
+$btn-border-width: 2px;
+
+// Forms
+
+$form-label-font-weight:              $headings-font-weight;
+$input-focus-border-color:            $black;
+$form-check-input-checked-border-color: $black;
+
+$form-range-track-height:    .6rem;
+$form-range-thumb-width:     1.2rem;
+$form-range-thumb-height:    $form-range-thumb-width;
+$form-range-thumb-border:    2px solid $black;
+$form-range-thumb-box-shadow: none;
+$form-range-thumb-disabled-bg: $light;
+
+// Navs
+
+$nav-link-color:       $black;
+$nav-link-hover-color: $black;
+
+$nav-tabs-link-hover-border-color: transparent;
+
+// Navbar
+
+$navbar-padding-y:   $spacer * .75;
+$navbar-padding-x:   null;
+
+$navbar-nav-link-padding-x: 1rem;
+
+$navbar-light-color:                $black;
+$navbar-light-hover-color:          $black;
+$navbar-light-active-color:         $black;
+$navbar-light-disabled-color:       rgba($black, .3);
+$navbar-light-icon-color:           $black;
+$navbar-light-toggler-border-color: $black;
+
+$navbar-dark-color:                 $white;
+$navbar-dark-hover-color:           $white;
+$navbar-dark-active-color:          $white;
+$navbar-dark-disabled-color:        rgba($white, .3);
+$navbar-dark-icon-color:            $white;
+$navbar-dark-toggler-border-color:  $white;
+
+// Dropdowns
+
+$dropdown-border-color:  $black;
+$dropdown-border-width:  2px;
+$dropdown-link-hover-bg: $primary;
+$dropdown-header-color:  $black;
+
+// Pagination
+
+$pagination-color:              $black;
+$pagination-hover-color:        $black;
+$pagination-hover-bg:           transparent;
+$pagination-active-border-color: $black;
+
+// Cards
+
+$card-border-color: $black;
+
+// Accordion
+
+$accordion-button-active-bg:    $primary;
+$accordion-button-active-color: $black;
+
+// Tooltips
+
+$tooltip-opacity: 1;
+
+// Popovers
+
+$popover-border-color: $black;
+
+// Toasts
+
+$toast-border-color:   $black;
+$toast-box-shadow:     3px 3px 0 0 $black;
+$toast-header-color:   $black;
+
+// Badges
+
+$badge-color: $black;
+
+// Modals
+
+$modal-content-border-color: $black;
+
+// Breadcrumbs
+
+$breadcrumb-padding-y:      .5rem;
+$breadcrumb-padding-x:      1rem;
+$breadcrumb-divider-color:  $black;
+$breadcrumb-active-color:   $black;
+$breadcrumb-border-radius:  $border-radius-lg;
+
+// Close
+
+$btn-close-opacity:       1;
+$btn-close-hover-opacity: 1;
+
+
+/*-- scss:rules --*/
+
+// Category tag colors — listing cards and article headers
+.listing-category, .quarto-category {
+  border-radius: 50rem !important;
+  border-color: $black !important;
+  opacity: 1 !important;
+  font-size: .7em !important;
+}
+
+.listing-categories {
+  margin-top: .4rem;
+}
+
+.listing-description a { font-weight: normal !important; }
+.description         { font-weight: 500; }
+
+.quarto-post .metadata {
+  flex-basis: 15% !important;
+}
+
+@mixin category-colors($sel) {
+  #{$sel}[data-value="author"]        { background-color: $green;  color: $black !important; border-color: $black !important; }
+  #{$sel}[data-value="second author"] { background-color: $cyan;   color: $black !important; border-color: $black !important; }
+  #{$sel}[data-value="data"]          { background-color: $yellow; color: $black !important; border-color: $black !important; }
+  #{$sel}[data-value="literature"]    { background-color: $red;    color: $black !important; border-color: $black !important; }
+  #{$sel}[data-value="publication"]   { background-color: $indigo; color: $black !important; border-color: $black !important; }
+  #{$sel}[data-value="project"]       { background-color: $purple; color: $black !important; border-color: $black !important; }
+}
+@include category-colors(".listing-category");
+@include category-colors(".quarto-category");
+
+// Show publication/project type tags only on the home listing
+.listing-category[data-value="publication"],
+.listing-category[data-value="project"],
+.quarto-category[data-value="publication"],
+.quarto-category[data-value="project"] { display: none; }
+
+#listing-recent {
+  .listing-category[data-value="publication"],
+  .listing-category[data-value="project"] { display: inline-flex; }
+}
+
+// Brite 5.3.8 — Bootswatch
+
+:root {
+  --#{$prefix}border-width: 2px;
+  --#{$prefix}border-color: #000;
+}
+
+[data-bs-theme="light"],
+[data-bs-theme="dark"] {
+  --#{$prefix}border-color: #000;
+}
+
+@mixin btn-shadow() {
+  box-shadow: 3px 3px 0 0 var(--#{$prefix}border-color);
+}
+
+.table {
+  border: 2px solid $black;
+}
+
+// Navbar
+
+.navbar {
+  $navbar-border-width: 2px;
+  font-size: $font-size-lg;
+  font-weight: $headings-font-weight;
+  border: $navbar-border-width solid $black;
+
+  &.fixed-top    { border-width: 0 0 $navbar-border-width 0; }
+  &.fixed-bottom { border-width: $navbar-border-width 0 0 0; }
+
+  .dropdown-toggle::after {
+    margin-left: .15em;
+    vertical-align: .15em;
+  }
+
+  &-toggler {
+    --bs-border-width: 2px;
+  }
+}
+
+// Buttons
+
+.btn {
+  margin: 3px 0 0 3px;
+  border-color: $black;
+  @include btn-shadow();
+  transition: all .3s;
+  transform: translate(-3px, -3px);
+
+  &:hover {
+    border-color: $black;
+    box-shadow: none;
+    transform: translate(0, 0);
+  }
+
+  &.disabled { border-color: $black; }
+
+  &-link,
+  &-link:hover { color: $black; }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-outline-#{$color} {
+    color: $black;
+    background-color: #{$value};
+    box-shadow: none;
+    transform: translate(0, 0);
+
+    &:hover {
+      @include btn-shadow();
+      transform: translate(-3px, -3px);
+    }
+  }
+
+  .btn-check + .btn-#{$color},
+  .btn-check + .btn-outline-#{$color} {
+    &:hover { background-color: #{$value}; }
+  }
+}
+
+.btn-outline-dark { color: $white; }
+
+.btn-group {
+  .btn { margin-left: 0; }
+  > .btn.active { z-index: 0; }
+}
+
+.btn-group,
+.btn-group-vertical {
+  .btn {
+    &:hover, &:active, &:focus { z-index: 0; }
+  }
+  > .btn-check:focus + .btn,
+  > .btn-check:checked + .btn { z-index: 0; }
+}
+
+.btn-check + .btn {
+  border-color: $black;
+  @include btn-shadow();
+  transform: translate(-3px, -3px);
+}
+
+.btn-check + .btn:hover {
+  color: $black;
+  border-color: $black;
+}
+
+.btn-check:checked + .btn,
+:not(.btn-check) + .btn:active,
+.btn:first-child:active,
+.btn.active,
+.btn.show {
+  border-color: $black;
+  box-shadow: none;
+  transform: translate(0, 0);
+}
+
+[data-bs-theme="dark"] .btn-link,
+[data-bs-theme="dark"] .btn-link:hover { color: #fff; }
+
+// Typography
+
+a { font-weight: $headings-font-weight; }
+
+// Forms
+
+.form-range {
+  &:not([disabled])::-moz-range-progress {
+    height: .6rem;
+    background-color: $primary;
+    border-radius: 6px 0 0 6px;
+  }
+
+  &:not([disabled])::-ms-fill-lower {
+    height: .6rem;
+    background-color: $primary;
+    border-radius: 6px 0 0 6px;
+  }
+
+  &::-webkit-slider-runnable-track { border: 2px solid $black; }
+  &::-moz-range-track              { border: 2px solid $black; }
+  &::-webkit-slider-thumb          { margin-top: -.4rem; }
+  &::-moz-range-thumb              { margin-top: -.4rem; }
+  &:focus::-webkit-slider-thumb   { box-shadow: none; }
+  &:focus::-moz-range-thumb       { box-shadow: none; }
+}
+
+// Navs
+
+.nav {
+  &:not(.nav-tabs, .nav-pills) {
+    .nav-link.active { font-weight: 700; }
+  }
+}
+
+.nav-tabs {
+  gap: 4px;
+  padding: .4rem .4rem calc(.4rem + 2px);
+  font-weight: $headings-font-weight;
+  border: 2px solid $black;
+  border-radius: $border-radius-lg;
+
+  .nav-link {
+    border-width: 2px;
+    border-radius: $border-radius;
+
+    &.active, &:hover { border: 2px solid $black; }
+  }
+}
+
+.tab-content {
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 2px solid $black;
+  border-radius: $border-radius-lg;
+}
+
+.nav-pills {
+  gap: 4px;
+  font-weight: $headings-font-weight;
+
+  .nav-link { border: 2px solid $black; }
+}
+
+.breadcrumb {
+  font-weight: $headings-font-weight;
+  border: 2px solid $black;
+
+  a { color: $black; }
+}
+
+.dropdown-menu {
+  @include btn-shadow();
+  border-radius: $border-radius;
+}
+
+.dropdown-header    { font-weight: 700; }
+
+.dropdown-item:hover,
+.dropdown-item:focus { color: #000; }
+
+@each $color, $value in $theme-colors {
+  .list-group-item-#{$color} {
+    color: $black;
+    background-color: #{$value};
+    border-color: $black;
+  }
+}
+
+.list-group-item-dark { color: $white; }
+
+[data-bs-theme="dark"] {
+  .nav-tabs,
+  .nav-pills {
+    .nav-link {
+      --#{$prefix}nav-link-color: #fff;
+      &:hover, &:focus { --#{$prefix}nav-link-hover-color: #fff; }
+    }
+  }
+
+  .page-link {
+    --#{$prefix}pagination-color: #fff;
+    &:hover { --#{$prefix}pagination-hover-color: #fff; }
+  }
+
+  .nav .nav-link {
+    --#{$prefix}nav-link-color: #fff;
+    &:hover, &:focus { --#{$prefix}nav-link-hover-color: #fff; }
+  }
+
+  .breadcrumb {
+    a { color: $white; }
+    &-item.active { --#{$prefix}breadcrumb-item-active-color: #fff; }
+  }
+}
+
+// Indicators
+
+.alert {
+  color: $black;
+  border: 2px solid $black;
+  @include btn-shadow();
+}
+
+.alert-link  { color: $black; }
+.alert-dark  { color: $white; }
+
+@each $color, $value in $theme-colors {
+  .alert-#{$color} { background-color: #{$value}; }
+}
+
+.badge {
+  border: 2px solid $black;
+  &.bg-dark { color: $white; }
+}
+
+.progress {
+  border: 2px solid $black;
+  &-bar { border-right: 2px solid $black; }
+}
+
+.modal-content { @include btn-shadow(); }
+
+.vr {
+  width: 2px;
+  background-color: $black;
+}
+
+[data-bs-theme="dark"] .toast-header {
+  --#{$prefix}toast-header-color: #fff;
+}

@@ -1,0 +1,10 @@
+---
+title: "Obyvatele Prahy 1 trápí vliv turismu a tranzitní doprava"
+date: 2023-03-15
+description: "Representative survey of Prague 1 residents on the impacts of over-tourism and transit traffic on quality of life."
+categories: [publication, second author, data]
+---
+
+A representative survey of Prague 1 residents examining how over-tourism and transit traffic affect quality of life in the historic city center. Despite appreciating the area's services and community, residents strongly support short-term rental regulation and expanded car-free zones. I led the questionnaire design and data analysis for this project.
+
+[Read the original study →](https://www.paqresearch.cz/post/praha1/)
