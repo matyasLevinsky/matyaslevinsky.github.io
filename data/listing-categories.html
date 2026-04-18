@@ -1,9 +1,26 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  // Listing card and article header tags — text content becomes data-value
   document.querySelectorAll(".listing-category, .quarto-category").forEach(function (el) {
     if (!el.getAttribute("data-value")) {
       el.setAttribute("data-value", el.textContent.trim());
     }
+  });
+
+  // Filter sidebar buttons — data-category is base64(encodeURIComponent(name))
+  document.querySelectorAll(".quarto-listing-category .category").forEach(function (el) {
+    var encoded = el.getAttribute("data-category");
+    var decoded;
+    if (!encoded) {
+      decoded = "all";
+    } else {
+      try {
+        decoded = decodeURIComponent(atob(encoded));
+      } catch (e) {
+        decoded = encoded;
+      }
+    }
+    el.setAttribute("data-value", decoded);
   });
 });
 </script>

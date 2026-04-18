@@ -239,6 +239,35 @@ $btn-close-hover-opacity: 1;
   .listing-category[data-value="project"] { display: inline-flex; }
 }
 
+// Category filter sidebar pills
+.quarto-listing-category {
+  .category {
+    display: inline-flex;
+    align-items: center;
+    padding: .2em .65em;
+    border-radius: 50rem;
+    border: 2px solid $black;
+    font-size: .7em;
+    font-weight: $headings-font-weight;
+    cursor: pointer;
+    background-color: $white;
+    color: $black;
+    margin-bottom: .2rem;
+
+    .quarto-category-count { opacity: .6; }
+  }
+}
+
+// Default for unmatched (e.g. "All") in dark mode
+[data-bs-theme="dark"] .quarto-listing-category .category {
+  background-color: $black;
+  color: $white;
+  border-color: $white;
+}
+
+// Color overrides — placed after dark-mode default so equal-specificity rules win
+@include category-colors(".quarto-listing-category .category");
+
 // Brite 5.3.8 — Bootswatch
 
 :root {
