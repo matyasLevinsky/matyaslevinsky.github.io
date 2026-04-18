@@ -2,7 +2,7 @@
 title: "Rozdrobené obce, drahé služby, přetížení starostové. Řešením je reforma společenství obcí"
 date: 2026-02-25
 description: "Proposal to strengthen municipal associations in the Czech Republic, modeled on France's intercommunal cooperation system."
-categories: [publication, author, literature]
+categories: [publication, author, literature review]
 ---
 
 Most Czech municipalities have fewer than 500 residents and struggle to deliver even basic services on their own. In this study we argue that strengthening municipal associations — modeled on the French intercommunal system — would allow small municipalities to pool resources and responsibilities while preserving local democratic accountability. I contributed to the data analysis and empirical background for the reform proposal.

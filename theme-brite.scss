@@ -220,8 +220,8 @@ $btn-close-hover-opacity: 1;
 @mixin category-colors($sel) {
   #{$sel}[data-value="author"]        { background-color: $green;  color: $black !important; border-color: $black !important; }
   #{$sel}[data-value="second author"] { background-color: $cyan;   color: $black !important; border-color: $black !important; }
-  #{$sel}[data-value="data"]          { background-color: $yellow; color: $black !important; border-color: $black !important; }
-  #{$sel}[data-value="literature"]    { background-color: $red;    color: $black !important; border-color: $black !important; }
+  #{$sel}[data-value="data analysis"]     { background-color: $yellow; color: $black !important; border-color: $black !important; }
+  #{$sel}[data-value="literature review"] { background-color: $red;    color: $black !important; border-color: $black !important; }
   #{$sel}[data-value="publication"]   { background-color: $indigo; color: $black !important; border-color: $black !important; }
   #{$sel}[data-value="project"]       { background-color: $purple; color: $black !important; border-color: $black !important; }
 }
@@ -253,13 +253,13 @@ $btn-close-hover-opacity: 1;
     border: 2px solid $black;
     font-size: .7em;
     font-weight: $headings-font-weight;
-    text-transform: capitalize;
+    text-transform: uppercase;
     cursor: pointer;
     background-color: $white;
     color: $black;
     margin-bottom: .2rem;
 
-    .quarto-category-count { opacity: .6; }
+    .quarto-category-count { opacity: .6; margin-left: .3em; }
   }
 }
 
@@ -272,6 +272,17 @@ $btn-close-hover-opacity: 1;
 
 // Color overrides — placed after dark-mode default so equal-specificity rules win
 @include category-colors(".quarto-listing-category .category");
+
+// Sidebar pill order: All → publication/project → author/second author → data analysis/literature review
+.quarto-listing-category {
+  .category[data-value="all"]               { order: 0; }
+  .category[data-value="publication"]       { order: 10; margin-top: .5rem; }
+  .category[data-value="project"]           { order: 11; }
+  .category[data-value="author"]            { order: 20; margin-top: .5rem; }
+  .category[data-value="second author"]     { order: 21; }
+  .category[data-value="data analysis"]     { order: 30; margin-top: .5rem; }
+  .category[data-value="literature review"] { order: 31; }
+}
 
 // Brite 5.3.8 — Bootswatch
 

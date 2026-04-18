@@ -3,7 +3,7 @@ title: "Analyzing the CNN coverage of the Prague University shooting"
 author: "Matáš Levínský"
 date: '2024-02-29'
 description: "Analysis of CNN's live-block reporting on the Prague University shooting compared to coverage of US mass shootings, using R for web scraping and text analysis."
-categories: [author, data]
+categories: [author, data analysis]
 execute:
   freeze: true
 ---

@@ -2,7 +2,7 @@
 title: "Spolupráce, investice a silná centra. Reforma RUD může zlepšit život v regionech"
 date: 2025-11-11
 description: "Analysis of Czech municipal tax revenue distribution with proposals for reform to better support regional development."
-categories: [publication, second author, literature]
+categories: [publication, second author, literature review]
 ---
 
 This study looks at how tax revenues are distributed to Czech municipalities and identifies five structural problems with the current system — from underfunded regional centers to weak incentives for inter-municipal cooperation. We propose both short-term parametric fixes and a longer-term systemic overhaul. My work here focused on the quantitative modeling of redistribution scenarios.

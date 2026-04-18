@@ -2,7 +2,7 @@
 title: "Levice zmizela, ANO volí ve městech, nejvíc zastupitelů mají Lidovci. Analyzujeme komunální volby"
 date: 2025-04-16
 description: "Analysis of Czech municipal elections revealing the near-disappearance of left-wing parties and widespread uncontested voting."
-categories: [publication, author, data]
+categories: [publication, author, data analysis]
 ---
 
 A deep dive into Czech municipal elections revealing that nearly a third of municipalities run uncontested — with over 700,000 citizens having no real electoral choice. We also document the near-complete collapse of left-wing parties at the local level since 2002. This was an interesting project for me as it combined electoral data with demographic and geographic context.
