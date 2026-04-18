@@ -36,3 +36,32 @@ pre code:not(.sourceCode) {
   background-color: initial;
   color: #7ec8a0;
 }
+
+// Buttons — grey border and shadow in dark mode
+.btn {
+  border-color: #dee2e6 !important;
+  box-shadow: 3px 3px 0 0 #dee2e6 !important;
+}
+
+.btn:hover {
+  border-color: #dee2e6 !important;
+  box-shadow: none !important;
+}
+
+// Sidebar category pills — [data-category] raises specificity to (0,3,0) to match
+// and beat the mixin's color/border-color !important rules
+.quarto-listing-category .category[data-category] {
+  border-color: #dee2e6 !important;
+  box-shadow: 3px 3px 0 0 #dee2e6 !important;
+}
+
+.quarto-listing-category .category[data-category]:hover,
+.quarto-listing-category .category[data-category].active {
+  box-shadow: none !important;
+}
+
+// "All" pill — dark background + light text (coloured pills keep black text from mixin)
+.quarto-listing-category .category[data-category=""] {
+  background-color: #000 !important;
+  color: #dee2e6 !important;
+}

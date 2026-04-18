@@ -24,9 +24,9 @@ listing:
 I am a Data Analyst at [PAQ Research](https://www.paqresearch.cz/) and a sociology student at Charles University in Prague. My work focuses on Czech regional disparities and political structures — covering topics such as municipal finance, electoral geography, housing policy, and the fragmentation of local government. I studied urbanism at the Technical University Berlin and sociology at Charles University. You may find my full CV [here](cv.qmd).
 
 <div class="d-flex gap-2 mt-3">
-<a href="https://www.linkedin.com/in/matyaslevinsky/" class="btn btn-outline-secondary btn-sm"><i class="bi bi-linkedin"></i> LinkedIn</a>
-<a href="https://github.com/matyasLevinsky" class="btn btn-outline-secondary btn-sm"><i class="bi bi-github"></i> GitHub</a>
-<a href="https://www.facebook.com/profile.php?id=100005920008245" class="btn btn-outline-secondary btn-sm"><i class="bi bi-facebook"></i> Facebook</a>
+<a href="https://www.linkedin.com/in/matyaslevinsky/" class="btn btn-primary btn-sm"><i class="bi bi-linkedin"></i> LinkedIn</a>
+<a href="https://github.com/matyasLevinsky" class="btn btn-primary btn-sm"><i class="bi bi-github"></i> GitHub</a>
+<a href="https://www.facebook.com/profile.php?id=100005920008245" class="btn btn-primary btn-sm"><i class="bi bi-facebook"></i> Facebook</a>
 </div>
 :::
 

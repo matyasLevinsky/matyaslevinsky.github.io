@@ -257,30 +257,31 @@ $btn-close-hover-opacity: 1;
     cursor: pointer;
     background-color: $white;
     color: $black;
-    margin-bottom: .2rem;
+    margin: 3px 0 .2rem 3px;
+    box-shadow: 3px 3px 0 0 var(--#{$prefix}border-color);
+    transition: all .3s;
+    transform: translate(-3px, -3px);
+
+    &:hover, &.active {
+      box-shadow: none;
+      transform: translate(0, 0);
+    }
 
     .quarto-category-count { opacity: .6; margin-left: .3em; }
   }
 }
 
-// Default for unmatched (e.g. "All") in dark mode
-[data-bs-theme="dark"] .quarto-listing-category .category {
-  background-color: $black;
-  color: $white;
-  border-color: $white;
-}
-
-// Color overrides — placed after dark-mode default so equal-specificity rules win
+// Color overrides — placed after base styles so equal-specificity rules win
 @include category-colors(".quarto-listing-category .category");
 
 // Sidebar pill order: All → publication/project → author/second author → data analysis/literature review
 .quarto-listing-category {
   .category[data-value="all"]               { order: 0; }
-  .category[data-value="publication"]       { order: 10; margin-top: .5rem; }
+  .category[data-value="publication"]       { order: 10; margin-top: 1rem; }
   .category[data-value="project"]           { order: 11; }
-  .category[data-value="author"]            { order: 20; margin-top: .5rem; }
+  .category[data-value="author"]            { order: 20; margin-top: 1rem; }
   .category[data-value="second author"]     { order: 21; }
-  .category[data-value="data analysis"]     { order: 30; margin-top: .5rem; }
+  .category[data-value="data analysis"]     { order: 30; margin-top: 1rem; }
   .category[data-value="literature review"] { order: 31; }
 }
 

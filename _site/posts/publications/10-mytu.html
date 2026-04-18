@@ -47,9 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f3569e767badd4f9795e75f78450d7d7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-aab952d42004d12b90c7e1f41f85c39d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-f3569e767badd4f9795e75f78450d7d7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-9e662e52b4c3af405324453dd4c7a89a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-b0a889a5bae4d024038a1cee46e01158.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-9e662e52b4c3af405324453dd4c7a89a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -321,7 +321,7 @@ gtag('config', 'G-02CDV8B142', { 'anonymize_ip': true});
   <div class="quarto-categories">
     <div class="quarto-category">publication</div>
     <div class="quarto-category">second author</div>
-    <div class="quarto-category">literature</div>
+    <div class="quarto-category">literature review</div>
   </div>
   </div>
 
@@ -358,10 +358,27 @@ gtag('config', 'G-02CDV8B142', { 'anonymize_ip': true});
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  // Listing card and article header tags — text content becomes data-value
   document.querySelectorAll(".listing-category, .quarto-category").forEach(function (el) {
     if (!el.getAttribute("data-value")) {
       el.setAttribute("data-value", el.textContent.trim());
     }
+  });
+
+  // Filter sidebar buttons — data-category is base64(encodeURIComponent(name))
+  document.querySelectorAll(".quarto-listing-category .category").forEach(function (el) {
+    var encoded = el.getAttribute("data-category");
+    var decoded;
+    if (!encoded) {
+      decoded = "all";
+    } else {
+      try {
+        decoded = decodeURIComponent(atob(encoded));
+      } catch (e) {
+        decoded = encoded;
+      }
+    }
+    el.setAttribute("data-value", decoded);
   });
 });
 </script>
