@@ -1,5 +1,6 @@
 ---
 title: "Cooperation, investment, and strong centres. Reforming RUD can improve life in the regions"
+canonical-url: https://matyaslevinsky.github.io/posts/publications/spoluprace.html
 date: 2025-11-11
 description: "A framework proposal for reforming Czechia's municipal fiscal allocation system (RUD) to incentivise inter-municipal cooperation and support microregional centres."
 categories: [publication, second author, literature review]

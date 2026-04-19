@@ -1,5 +1,6 @@
 ---
 title: "Residents of Prague 1 are troubled by tourism and transit traffic"
+canonical-url: https://matyaslevinsky.github.io/posts/publications/praha1.html
 date: 2023-03-15
 description: "Representative survey of Prague 1 residents on the impacts of over-tourism and transit traffic on quality of life."
 categories: [publication, second author, data analysis]

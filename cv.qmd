@@ -1,5 +1,6 @@
 ---
 title: "Curriculum Vitae"
+canonical-url: https://matyaslevinsky.github.io/cv.html
 description: "Curriculum vitae of Matyáš Levínský — education, work experience, and publications."
 format:
   html:

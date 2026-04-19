@@ -1,5 +1,6 @@
 ---
 title: "ANO has absorbed the anti-system parties. The former coalition hits a ceiling in poorer microregions, where turnout also rose"
+canonical-url: https://matyaslevinsky.github.io/posts/publications/ano-vysalo.html
 date: 2025-10-04
 description: "Regional analysis of the 2025 Czech parliamentary elections showing how ANO consolidated the anti-system vote and how socioeconomic development shaped turnout and party support."
 categories: [publication, author, data analysis]

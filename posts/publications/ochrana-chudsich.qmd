@@ -1,5 +1,6 @@
 ---
 title: "Protecting lower-income owners, incentives to build and rent. A smarter way to tax real estate"
+canonical-url: https://matyaslevinsky.github.io/posts/publications/ochrana-chudsich.html
 date: 2025-04-03
 description: "Proposal for Czech property tax reform shifting the burden from buildings to land values, paired with a labor tax cut, to protect vulnerable owners and improve housing supply."
 categories: [publication, second author, literature review]

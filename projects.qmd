@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+canonical-url: https://matyaslevinsky.github.io/projects.html
 description: "Data projects and analyses by Matyáš Levínský."
 listing:
   contents: posts/projects

@@ -1,5 +1,6 @@
 ---
 title: "The left has vanished, ANO votes in cities, the Christian Democrats have the most councillors. A look at Czech municipal elections"
+canonical-url: https://matyaslevinsky.github.io/posts/publications/levice-zmizela.html
 date: 2025-04-16
 description: "Analysis of Czech municipal elections revealing the near-disappearance of the left, the collapse of electoral competition in small municipalities, and the distinctive regional bases of the major parties."
 categories: [publication, author, data analysis]

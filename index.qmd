@@ -1,5 +1,6 @@
 ---
 title: "Matyáš Levínský"
+canonical-url: https://matyaslevinsky.github.io/
 description: "Matyáš Levínský — researcher at PAQ Research working on housing, municipalities, and Czech public policy."
 listing:
   - id: recent

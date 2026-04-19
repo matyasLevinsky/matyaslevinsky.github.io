@@ -1,5 +1,6 @@
 ---
 title: "10 myths about taxing wine"
+canonical-url: https://matyaslevinsky.github.io/posts/publications/10-mytu.html
 date: 2024-04-17
 description: "Quick-reaction fact-check debunking ten common objections to introducing an excise tax on still wine in Czechia."
 categories: [publication, second author, literature review]

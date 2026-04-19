@@ -1,5 +1,6 @@
 ---
 title: "Czechia is not falling behind in philanthropy, but the state could do more to encourage giving"
+canonical-url: https://matyaslevinsky.github.io/posts/publications/filantropie.html
 date: 2024-04-04
 description: "Benchmarking Czech philanthropy against other European countries and proposing tax reforms to encourage charitable giving."
 categories: [publication, second author, literature review]

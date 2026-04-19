@@ -1,5 +1,6 @@
 ---
 title: "Ukrainian refugee integration: one year on"
+canonical-url: https://matyaslevinsky.github.io/posts/publications/integrace.html
 date: 2023-04-17
 description: "One-year review of Czechia's integration of Ukrainian refugees across housing, employment, and education, drawing on the ongoing Voice of Ukrainians panel."
 categories: [publication, second author, data analysis]

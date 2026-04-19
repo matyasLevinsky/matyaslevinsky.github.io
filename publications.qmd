@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+canonical-url: https://matyaslevinsky.github.io/publications.html
 description: "Publications and policy papers by Matyáš Levínský at PAQ Research."
 listing:
   contents: posts/publications
