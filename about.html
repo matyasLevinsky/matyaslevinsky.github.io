@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="About Matyáš Levínský — researcher, data analyst, and author at PAQ Research.">
 
 <title>About Me – Matyas Levinsky</title>
 <style>
@@ -39,9 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-f33295b6c351cd6015bc6a86103485bf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -83,11 +84,16 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-02CDV8B142', { 'anonymize_ip': true});
 </script>
+<link rel="preconnect" href="https://www.googletagmanager.com">
 
 
 <meta property="og:title" content="About Me – Matyas Levinsky">
-<meta property="og:description" content="">
+<meta property="og:description" content="About Matyáš Levínský — researcher, data analyst, and author at PAQ Research.">
 <meta property="og:site_name" content="Matyas Levinsky">
+<meta name="twitter:title" content="Matyas Levinsky">
+<meta name="twitter:description" content="Researcher at PAQ Research — housing, municipalities, Czech public policy.">
+<meta name="twitter:image" content="https://matyaslevinsky.github.io/data/GoodFoto.webp">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -311,6 +317,11 @@ gtag('config', 'G-02CDV8B142', { 'anonymize_ip': true});
 <div class="quarto-title">
 <h1 class="title">About Me</h1>
 </div>
+<div>
+  <div class="description">
+    About Matyáš Levínský — researcher, data analyst, and author at PAQ Research.
+  </div>
+</div>
 <div class="quarto-title-meta">
   </div>
 </header> <div class="about-links">
@@ -330,12 +341,12 @@ gtag('config', 'G-02CDV8B142', { 'anonymize_ip': true});
       <div class="about-contents"><main class="content" id="quarto-document-content">
 
 <p>Hello, I am Matyáš Levínský a sociology student at the philosophical faculty of the Charles University in Prague. I am primarily interested in the precarization of work due to the Gig economy, and AI. I try to follow hot topics, and as such am interested in AI itself.</p>
-<p>Since 2022 I am working at <a href="https://www.paqresearch.cz/">PAQ Research</a> as a Data Analyst. You may find my entire CV <a href="./cv.html">here</a>.</p>
+<p>Since 2022 I am working at <a href="https://www.paqresearch.cz/">PAQ Research</a> as a Data Analyst. You may find <a href="./cv.html">my full CV</a>.</p>
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div>
     </div>
-    <img src="data/GoodFoto.jpg" class="about-image
+    <img src="data/GoodFoto.webp" alt="Matyáš Levínský" class="about-image
   rounded " style="width: 15em;">
   </div>
 </div>
@@ -360,6 +371,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   alignSidebarToListing();
   window.addEventListener("resize", alignSidebarToListing);
+
+  // Toolbar icon-only links — add aria-label so Lighthouse SEO passes
+  var colorToggle = document.querySelector('.quarto-color-scheme-toggle');
+  if (colorToggle) colorToggle.setAttribute('aria-label', 'Toggle dark mode');
+  var readerToggle = document.querySelector('.quarto-reader-toggle');
+  if (readerToggle) readerToggle.setAttribute('aria-label', 'Toggle reader mode');
 
   // Filter sidebar buttons — data-category is base64(encodeURIComponent(name))
   document.querySelectorAll(".quarto-listing-category .category").forEach(function (el) {
