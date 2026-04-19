@@ -1,0 +1,39 @@
+[
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/posts/publications/rozdrobene-obce.html",
+      "/posts/publications/spoluprace.html",
+      "/posts/publications/ano-vysalo.html",
+      "/posts/publications/levice-zmizela.html",
+      "/posts/publications/ochrana-chudsich.html",
+      "/posts/publications/10-mytu.html",
+      "/posts/publications/filantropie.html",
+      "/posts/publications/integrace.html",
+      "/posts/publications/praha1.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/publications/rozdrobene-obce.html",
+      "/posts/publications/spoluprace.html",
+      "/posts/publications/ano-vysalo.html",
+      "/posts/publications/levice-zmizela.html",
+      "/posts/publications/ochrana-chudsich.html",
+      "/posts/publications/10-mytu.html",
+      "/posts/publications/filantropie.html",
+      "/posts/projects/AIHypeCycles.html",
+      "/posts/projects/SlerkaProjekt.html",
+      "/posts/publications/integrace.html",
+      "/posts/publications/praha1.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/posts/projects/AIHypeCycles.html",
+      "/posts/projects/SlerkaProjekt.html"
+    ]
+  }
+]
