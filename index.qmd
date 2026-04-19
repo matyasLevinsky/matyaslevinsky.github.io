@@ -16,7 +16,7 @@ listing:
 :::: {.columns}
 
 ::: {.column width="28%"}
-![Matyáš Levínský](data/GoodFoto.webp){width=100% fig-alt="Matyáš Levínský"}
+![](data/GoodFoto.webp){width=100% fig-alt="Matyáš Levínský"}
 :::
 
 ::: {.column width="5%"}

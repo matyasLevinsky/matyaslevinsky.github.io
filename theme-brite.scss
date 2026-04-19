@@ -559,3 +559,6 @@ a { font-weight: $headings-font-weight; }
 [data-bs-theme="dark"] .toast-header {
   --#{$prefix}toast-header-color: #fff;
 }
+
+// description: field is for SEO meta tag only — suppress visible subtitle
+#title-block-header .description { display: none; }
