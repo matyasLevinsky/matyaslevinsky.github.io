@@ -1,10 +1,12 @@
 ---
-title: "10 mýtů o danění vína"
+title: "10 myths about taxing wine"
 date: 2024-04-17
-description: "Fact-check debunking ten common myths about introducing an excise tax on still wine in the Czech Republic."
+description: "Quick-reaction fact-check debunking ten common objections to introducing an excise tax on still wine in Czechia."
 categories: [publication, second author, literature review]
 ---
 
-A fact-checking piece debunking ten common objections to introducing an excise tax on still wine in Czechia — from fears of smuggling to claims about harm to local producers. The argument for taxation rests on both public health and fiscal grounds. I found this project a useful exercise in communicating evidence clearly against entrenched misconceptions.
+A short reaction piece, co-written with Jakub Komárek, taking apart ten claims that had become common in Czech public discourse as the government floated an excise tax on still wine. The objections ranged from predictions of cross-border smuggling to warnings that small Moravian producers would be wiped out. The piece works through each in turn against the available evidence.
 
-[Read the original study →](https://www.paqresearch.cz/post/10-mytu-o-daneni-vina-2/)
+One point worth flagging: the status quo – no excise on still wine – is often defended as protecting Czech winemaking tradition, but in practice it mostly benefits large importers, who supply roughly three-quarters of wine sold in Czechia. The PAQ proposal pairs the excise with a simplified regime for producers under 100 hl and a half-rate up to 1,000 hl, which would actually give small Czech and Moravian winemakers a competitive advantage over bulk imports.
+
+[Read the original piece →](https://www.paqresearch.cz/post/10-mytu-o-daneni-vina-2/)

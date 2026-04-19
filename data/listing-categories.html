@@ -7,6 +7,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Align category sidebar top to the listing section, so it doesn't float above the bio
+  function alignSidebarToListing() {
+    var sidebar = document.getElementById("quarto-margin-sidebar");
+    var listing = document.querySelector(".quarto-listing");
+    if (!sidebar || !listing) return;
+    sidebar.style.marginTop = "";
+    var offset = listing.getBoundingClientRect().top - sidebar.getBoundingClientRect().top;
+    if (offset > 0) sidebar.style.marginTop = offset + "px";
+  }
+  alignSidebarToListing();
+  window.addEventListener("resize", alignSidebarToListing);
+
   // Filter sidebar buttons — data-category is base64(encodeURIComponent(name))
   document.querySelectorAll(".quarto-listing-category .category").forEach(function (el) {
     var encoded = el.getAttribute("data-category");

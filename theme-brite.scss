@@ -19,9 +19,9 @@ $gray-900: #212529;
 $black:    #000;
 
 $blue:    #61bcff;
-$indigo:  #828df9;
+$indigo:  #9EA7FA;
 $purple:  #be82fa;
-$pink:    #ea4998;
+$pink:    #EE6DAB;
 $red:     #f56565;
 $orange:  #fa984a;
 $yellow:  #ffc700;
@@ -203,7 +203,7 @@ $btn-close-hover-opacity: 1;
   border-radius: 50rem !important;
   border-color: $black !important;
   opacity: 1 !important;
-  font-size: .7em !important;
+  font-size: .75em !important;
 }
 
 .listing-categories {
@@ -213,8 +213,10 @@ $btn-close-hover-opacity: 1;
 .listing-description a { font-weight: normal !important; }
 .description         { font-weight: 500; }
 
+.quarto-listing-container-default { margin-right: 0 !important; }
+
 .quarto-post .metadata {
-  flex-basis: 15% !important;
+  flex-basis: 10% !important;
 }
 
 @mixin category-colors($sel) {
@@ -222,8 +224,8 @@ $btn-close-hover-opacity: 1;
   #{$sel}[data-value="second author"] { background-color: $cyan;   color: $black !important; border-color: $black !important; }
   #{$sel}[data-value="data analysis"]     { background-color: $yellow; color: $black !important; border-color: $black !important; }
   #{$sel}[data-value="literature review"] { background-color: $red;    color: $black !important; border-color: $black !important; }
-  #{$sel}[data-value="publication"]   { background-color: $indigo; color: $black !important; border-color: $black !important; }
-  #{$sel}[data-value="project"]       { background-color: $purple; color: $black !important; border-color: $black !important; }
+  #{$sel}[data-value="publication"]   { background-color: $pink;   color: $black !important; border-color: $black !important; }
+  #{$sel}[data-value="project"]       { background-color: $indigo; color: $black !important; border-color: $black !important; }
 }
 @include category-colors(".listing-category");
 @include category-colors(".quarto-category");
@@ -251,7 +253,7 @@ $btn-close-hover-opacity: 1;
     padding: .2em .65em;
     border-radius: 50rem;
     border: 2px solid $black;
-    font-size: .7em;
+    font-size: .75em;
     font-weight: $headings-font-weight;
     text-transform: uppercase;
     cursor: pointer;

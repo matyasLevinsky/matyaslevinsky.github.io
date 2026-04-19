@@ -1,10 +1,14 @@
 ---
-title: "Česko ve filantropii nezaostává, stát by ale pro rozvoj dárcovství mohl udělat více"
+title: "Czechia is not falling behind in philanthropy, but the state could do more to encourage giving"
 date: 2024-04-04
-description: "Benchmarking Czech philanthropy against Europe and proposing tax reforms to encourage charitable giving."
+description: "Benchmarking Czech philanthropy against other European countries and proposing tax reforms to encourage charitable giving."
 categories: [publication, second author, literature review]
 ---
 
-This study benchmarks Czech philanthropic giving against other European countries and finds that while donation levels are comparable to Austria or Slovakia, the tax system does relatively little to encourage giving — especially for middle-income donors. We draw on models from Denmark and the Netherlands to propose reforms. I worked on the comparative data collection and cross-country analysis.
+A benchmarking study of Czech philanthropy against other European countries, commissioned by four Czech foundations (Nadace Via, Nadace BLÍŽKSOBĚ, Nadace RSJ, and Nadační fond Via Clarita). The headline finding is that Czechia is not as far behind as a naive comparison of total giving would suggest. Czech donations run at around 0.2 % of GDP – broadly in line with Slovakia and Austria – and most of the gap to the United States (where giving reaches roughly 2 % of GDP) is explained not by stinginess but by the much larger role of private giving in substituting for a thinner welfare state, and by the much higher inequality that produces very large individual donors at the top.
+
+The study also flags two structural problems with the Czech tax treatment of donations. First, donations are deducted from the tax base rather than from the calculated tax itself, which makes the subsidy regressive: the same 100,000 CZK gift reduces a high earner's tax bill by more than a middle earner's. France's system – deducting two-thirds of the gift value from the tax owed, independent of the donor's bracket – is a cleaner model. Second, Denmark's automatic deduction of philanthropic gifts in the tax return doubled the number of people claiming and raised the total deducted amount by 15 %, suggesting a similar simplification in Czechia would pull in donors who currently don't bother.
+
+Michal Ostrý initiated the project and we split the work roughly 60/40 in his favor. I was again responsible for a large share of the foreign-literature research, and was the lead on the tax-policy sections – the regressivity analysis and the Denmark and France comparisons both came out of that work. For a small one-off project, it gave me room to work with a fair amount of independence.
 
 [Read the original study →](https://www.paqresearch.cz/post/filantropie-v-cesku/)

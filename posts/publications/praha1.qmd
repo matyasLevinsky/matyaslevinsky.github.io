@@ -1,10 +1,14 @@
 ---
-title: "Obyvatele Prahy 1 trápí vliv turismu a tranzitní doprava"
+title: "Residents of Prague 1 are troubled by tourism and transit traffic"
 date: 2023-03-15
 description: "Representative survey of Prague 1 residents on the impacts of over-tourism and transit traffic on quality of life."
 categories: [publication, second author, data analysis]
 ---
 
-A representative survey of Prague 1 residents examining how over-tourism and transit traffic affect quality of life in the historic city center. Despite appreciating the area's services and community, residents strongly support short-term rental regulation and expanded car-free zones. I led the questionnaire design and data analysis for this project.
+A representative survey of Prague 1 residents (N ≈ 759, with a rest-of-Prague comparison group of ≈ 1,053) examining how over-tourism and transit traffic shape daily life in the historic center. One of the headline findings is a reframing of the usual "drivers versus pedestrians" narrative: the real dividing line residents draw is between "locals" and "outsiders" – transit traffic and non-resident parking annoy pedestrians and drivers alike.
+
+Perhaps the most striking result, in retrospect, is that residents reported higher quality of life *during* the COVID-19 pandemic, when tourist numbers collapsed. With enough distance from the pandemic, it is now easier to acknowledge that, alongside its very real harms, it functioned as a natural experiment – one that would have been impossible to run deliberately – revealing just how much baseline quality of life in Prague 1 is depressed by overtourism.
+
+I wrote the questionnaire and did the supporting literature review, drawing both on the general overtourism literature and on comparable municipal surveys from Vienna and a German city whose name now escapes me. My German made it straightforward to adapt the Viennese questions directly, so that responses could be compared across cities. I also did the bulk of the data analysis. The overall concept and framing came from Daniel Prokop, and Eliška Dvořáková handled coordination with NMS and the fieldwork implementation.
 
 [Read the original study →](https://www.paqresearch.cz/post/praha1/)

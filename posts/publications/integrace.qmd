@@ -1,10 +1,14 @@
 ---
-title: "Integrace ukrajinských uprchlíků: rok poté"
+title: "Ukrainian refugee integration: one year on"
 date: 2023-04-17
-description: "One-year assessment of Czech integration efforts for Ukrainian refugees, covering housing, employment, and education outcomes."
+description: "One-year review of Czechia's integration of Ukrainian refugees across housing, employment, and education, drawing on the ongoing Voice of Ukrainians panel."
 categories: [publication, second author, data analysis]
 ---
 
-One year after the start of the war in Ukraine, this report takes stock of Czech efforts to integrate Ukrainian refugees — what worked in housing, employment, and education, and where significant challenges remain. It is part of our ongoing *Hlas Ukrajinců v Česku* (Voice of Ukrainians) research programme. Contributing to this project was personally meaningful given its direct humanitarian relevance.
+A one-year review of how Czechia handled the integration of Ukrainian refugees across housing, employment, and education. It draws on the ongoing *Hlas Ukrajinců v Česku* (Voice of Ukrainians in Czechia) panel study, run with the Institute of Sociology of the Czech Academy of Sciences, which continued to produce follow-up analyses in the years that followed.
+
+The overall picture the report sketches is cautiously positive. Integration is going reasonably well given that no Czech system – housing, labor market, schools – was ever designed to absorb several hundred thousand arrivals in a matter of months. Much of what worked was spontaneous and unsystematic, and the refugees themselves have been broadly welcomed. The clearest failure is that, even a year in, the potential of the refugee population was not being used to anything like its full extent. I think this is a genuinely useful document for future policy, and expect it to stay relevant for at least the next decade.
+
+My contribution was concentrated in the early, foundational phase of the panel rather than in this specific review. I did literature research on the 2014–15 German refugee crisis – using my German to work directly with primary sources – covering both emergency sheltering of mass arrivals and longer-run integration of those who stayed. That work fed into the initial framing and expectations of the panel. My role in the follow-up waves, including this report, was small.
 
 [Read the original study →](https://www.paqresearch.cz/post/integrace-ukrajinskych-uprchliku-rok-pote/)

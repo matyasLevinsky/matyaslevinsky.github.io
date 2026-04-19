@@ -1,10 +1,14 @@
 ---
-title: "Spolupráce, investice a silná centra. Reforma RUD může zlepšit život v regionech"
+title: "Cooperation, investment, and strong centres. Reforming RUD can improve life in the regions"
 date: 2025-11-11
-description: "Analysis of Czech municipal tax revenue distribution with proposals for reform to better support regional development."
+description: "A framework proposal for reforming Czechia's municipal fiscal allocation system (RUD) to incentivise inter-municipal cooperation and support microregional centres."
 categories: [publication, second author, literature review]
 ---
 
-This study looks at how tax revenues are distributed to Czech municipalities and identifies five structural problems with the current system — from underfunded regional centers to weak incentives for inter-municipal cooperation. We propose both short-term parametric fixes and a longer-term systemic overhaul. My work here focused on the quantitative modeling of redistribution scenarios.
+A framework proposal for reforming the Czech RUD – the rules by which the state distributes roughly 310 billion CZK (about 4 % of GDP) to municipalities each year. The study diagnoses five structural problems with the current system: it does not incentivise inter-municipal cooperation, it underfunds microregional centres relative to the four largest cities, it gives municipalities almost no control over their own revenues, it fails to reward local economic development, and it treats every resident as costing the same to serve. The response is split into parametric fixes that could be made inside the existing system and longer-run structural changes that would require deeper reform.
+
+The piece is explicitly framed as preparing the ground for public debate rather than a finished legislative proposal. It is fiscally neutral by design, and the international comparisons – the French intercommunal system, Polish and Hungarian revenue-sharing models, Dutch equalisation via property values – do a lot of the work in mapping out what is possible.
+
+This was primarily Jiří Münich's project, and I played a supporting role. My contribution was the foreign-literature research and some advising. By this point I had been working on regional topics for long enough to have a view on them, and I pushed for the inter-municipal cooperation angle – the *společenství obcí* framing and the diagnosis of municipal fragmentation as a first-order problem. I also helped write up the first of the five problems, on the absence of cooperation incentives in the current system.
 
 [Read the original study →](https://www.paqresearch.cz/post/spoluprace-investice-a-silna-centra/)
