@@ -129,6 +129,7 @@ unique(articlesSentimentLong$emotion)
 We have reduced our data and joined it with the sentiment database `nrc` published by *Saif Mohammad and Peter Turney*. After that we computed `rowSums` and *'rowAverages'*, finally we converted the data into a long format for the purpose of plotting. For that we will be using the packages `ggplot2` and `scales`.
 
 ```{r}
+#| fig-alt: "Stacked bar chart comparing sentiment emotion proportions across CNN articles on the Prague shooting and US mass shootings"
 library(ggplot2)
 library(scales)
 
@@ -194,9 +195,10 @@ model1Topics
 You might have noticed the issue with the reverse naming of document and word. For some reason there happens a switch in the `LDA()` step, that I was unable to diagnose, so this is my shoddy workaround. Now that we have the model we can look how certain terms are present in the models 12 topics. Remember that the topics were set by the model itself and not by us. Therefor we can evaluate if the topic are sensible to our human preferences.
 
 ```{r}
+#| fig-alt: "Faceted bar charts showing top 10 terms per LDA topic across 12 CNN live-blog events"
 shootingTopTerms <- model1Topics %>%
   group_by(topic) %>%
-  slice_max(beta, n = 10) %>% 
+  slice_max(beta, n = 10) %>%
   ungroup() %>%
   arrange(topic, -beta)
 
@@ -211,6 +213,7 @@ shootingTopTerms %>%
 We are mostly interested in plot nr. 11 that is showing the language used during the reporting on the Prague mass shooting. To my sensibilities the graph make sense and so I will continue with the analysis. To determine whether the Prague shooting was a routing reporting experience for the writers at CNN we can look whether the articles themselves are significantly different. For that purpose we will separate the individual articles from their Events and look how many the model can correctly allocate to the correct topic.
 
 ```{r}
+#| fig-alt: "Boxplots of gamma topic probability by CNN event, showing topic specificity of the Prague shooting"
 model1Gamma <- tidytext::tidy(model1, matrix = "gamma")
 
 model1Gamma

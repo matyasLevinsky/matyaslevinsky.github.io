@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+description: "Data projects and analyses by Matyáš Levínský."
 listing:
   contents: posts/projects
   sort: "date desc"

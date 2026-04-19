@@ -1,6 +1,7 @@
 ---
 title: "Curriculum Vitae"
-format: 
+description: "Curriculum vitae of Matyáš Levínský — education, work experience, and publications."
+format:
   html:
     toc: true
   pdf:

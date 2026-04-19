@@ -1,51 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://matyaslevinsky.github.io/SlerkaProjekt.html</loc>
-    <lastmod>2026-04-18T21:37:33.130Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matyaslevinsky.github.io/cv.html</loc>
-    <lastmod>2026-04-18T10:42:55.544Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matyaslevinsky.github.io/about.html</loc>
-    <lastmod>2026-04-18T11:22:35.948Z</lastmod>
-  </url>
-  <url>
     <loc>https://matyaslevinsky.github.io/AIHypeCycles.html</loc>
     <lastmod>2026-04-18T21:37:30.121Z</lastmod>
   </url>
   <url>
-    <loc>https://matyaslevinsky.github.io/index.html</loc>
-    <lastmod>2026-04-19T11:22:46.928Z</lastmod>
-  </url>
-  <url>
     <loc>https://matyaslevinsky.github.io/publications.html</loc>
-    <lastmod>2026-04-19T08:35:59.944Z</lastmod>
+    <lastmod>2026-04-19T13:12:30.461Z</lastmod>
   </url>
   <url>
-    <loc>https://matyaslevinsky.github.io/projects.html</loc>
-    <lastmod>2026-04-19T08:35:59.944Z</lastmod>
+    <loc>https://matyaslevinsky.github.io/about.html</loc>
+    <lastmod>2026-04-19T17:56:54.426Z</lastmod>
   </url>
   <url>
-    <loc>https://matyaslevinsky.github.io/posts/publications/filantropie.html</loc>
-    <lastmod>2026-04-19T10:44:09.592Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matyaslevinsky.github.io/posts/publications/10-mytu.html</loc>
+    <loc>https://matyaslevinsky.github.io/posts/publications/praha1.html</loc>
     <lastmod>2026-04-19T10:44:09.596Z</lastmod>
   </url>
   <url>
-    <loc>https://matyaslevinsky.github.io/posts/publications/ano-vysalo.html</loc>
-    <lastmod>2026-04-19T10:44:09.592Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matyaslevinsky.github.io/posts/publications/rozdrobene-obce.html</loc>
+    <loc>https://matyaslevinsky.github.io/posts/publications/spoluprace.html</loc>
     <lastmod>2026-04-19T10:44:09.596Z</lastmod>
   </url>
   <url>
-    <loc>https://matyaslevinsky.github.io/posts/publications/integrace.html</loc>
+    <loc>https://matyaslevinsky.github.io/posts/publications/levice-zmizela.html</loc>
     <lastmod>2026-04-19T10:44:09.592Z</lastmod>
   </url>
   <url>
@@ -53,31 +29,47 @@
     <lastmod>2026-04-19T10:44:09.592Z</lastmod>
   </url>
   <url>
-    <loc>https://matyaslevinsky.github.io/posts/publications/levice-zmizela.html</loc>
+    <loc>https://matyaslevinsky.github.io/posts/publications/integrace.html</loc>
     <lastmod>2026-04-19T10:44:09.592Z</lastmod>
   </url>
   <url>
-    <loc>https://matyaslevinsky.github.io/posts/publications/spoluprace.html</loc>
-    <lastmod>2026-04-19T10:44:09.596Z</lastmod>
+    <loc>https://matyaslevinsky.github.io/posts/projects/SlerkaProjekt.html</loc>
+    <lastmod>2026-04-19T17:30:09.309Z</lastmod>
   </url>
   <url>
-    <loc>https://matyaslevinsky.github.io/posts/publications/praha1.html</loc>
-    <lastmod>2026-04-19T10:44:09.596Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matyaslevinsky.github.io/posts/projects/cnn-analysis.html</loc>
-    <lastmod>2026-04-18T13:10:35.220Z</lastmod>
-  </url>
-  <url>
-    <loc>https://matyaslevinsky.github.io/posts/projects/ai-hype-cycles.html</loc>
-    <lastmod>2026-04-18T13:10:32.800Z</lastmod>
+    <loc>https://matyaslevinsky.github.io/cv.html</loc>
+    <lastmod>2026-04-19T13:12:28.720Z</lastmod>
   </url>
   <url>
     <loc>https://matyaslevinsky.github.io/posts/projects/AIHypeCycles.html</loc>
-    <lastmod>2026-04-18T21:36:35.482Z</lastmod>
+    <lastmod>2026-04-19T08:35:59.944Z</lastmod>
   </url>
   <url>
-    <loc>https://matyaslevinsky.github.io/posts/projects/SlerkaProjekt.html</loc>
-    <lastmod>2026-04-18T21:36:32.185Z</lastmod>
+    <loc>https://matyaslevinsky.github.io/posts/publications/rozdrobene-obce.html</loc>
+    <lastmod>2026-04-19T10:44:09.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://matyaslevinsky.github.io/posts/publications/ano-vysalo.html</loc>
+    <lastmod>2026-04-19T10:44:09.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://matyaslevinsky.github.io/posts/publications/10-mytu.html</loc>
+    <lastmod>2026-04-19T10:44:09.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://matyaslevinsky.github.io/posts/publications/filantropie.html</loc>
+    <lastmod>2026-04-19T10:44:09.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://matyaslevinsky.github.io/index.html</loc>
+    <lastmod>2026-04-19T17:56:47.738Z</lastmod>
+  </url>
+  <url>
+    <loc>https://matyaslevinsky.github.io/projects.html</loc>
+    <lastmod>2026-04-19T13:12:29.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://matyaslevinsky.github.io/SlerkaProjekt.html</loc>
+    <lastmod>2026-04-18T21:37:33.130Z</lastmod>
   </url>
 </urlset>

@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: "_site"
+  post-render: data/webpify-figures.sh
   
 bibliography:
   - data/Website.bib
@@ -18,6 +19,11 @@ website:
   
   favicon: data/favicon32.png
   open-graph: true
+  twitter-card:
+    card-style: summary
+    title: "Matyas Levinsky"
+    description: "Researcher at PAQ Research — housing, municipalities, Czech public policy."
+    image: "data/GoodFoto.webp"
   google-analytics: "G-02CDV8B142"
   
   navbar:
@@ -32,6 +38,7 @@ website:
         text: "Publications"
 format:
   html:
+    include-in-header: data/preconnect.html
     include-after-body: data/listing-categories.html
     theme:
       light: theme-brite.scss

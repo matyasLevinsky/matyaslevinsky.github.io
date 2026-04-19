@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -98,14 +98,14 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9e662e52b4c3af405324453dd4c7a89a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-b0a889a5bae4d024038a1cee46e01158.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-9e662e52b4c3af405324453dd4c7a89a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f33295b6c351cd6015bc6a86103485bf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-cc3f919bde879d009f07c696f1136236.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-f33295b6c351cd6015bc6a86103485bf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -142,16 +142,22 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-02CDV8B142', { 'anonymize_ip': true});
 </script>
+<link rel="preconnect" href="https://www.googletagmanager.com">
 <link href="../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
 <script src="../../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 
 
 <meta property="og:title" content="Analyzing the CNN coverage of the Prague University shooting – Matyas Levinsky">
 <meta property="og:description" content="Analysis of CNN’s live-block reporting on the Prague University shooting compared to coverage of US mass shootings, using R for web scraping and text analysis.">
-<meta property="og:image" content="https://matyaslevinsky.github.io/posts/projects/SlerkaProjekt_files/figure-html/unnamed-chunk-7-1.png">
+<meta property="og:image" content="https://matyaslevinsky.github.io/posts/projects/SlerkaProjekt_files/figure-html/unnamed-chunk-7-1.webp">
 <meta property="og:site_name" content="Matyas Levinsky">
+<meta property="og:image:alt" content="Stacked bar chart comparing sentiment emotion proportions across CNN articles on the Prague shooting and US mass shootings">
 <meta property="og:image:height" content="1152">
 <meta property="og:image:width" content="1728">
+<meta name="twitter:title" content="Matyas Levinsky">
+<meta name="twitter:description" content="Researcher at PAQ Research — housing, municipalities, Czech public policy.">
+<meta name="twitter:image" content="https://matyaslevinsky.github.io/posts/projects/data/GoodFoto.webp">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="floating nav-fixed slimcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -593,7 +599,7 @@ Attaching package: 'scales'</code></pre>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="SlerkaProjekt_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="864"></p>
+<p><img src="SlerkaProjekt_files/figure-html/unnamed-chunk-7-1.webp" class="img-fluid figure-img" alt="Stacked bar chart comparing sentiment emotion proportions across CNN articles on the Prague shooting and US mass shootings" width="864"></p>
 </figure>
 </div>
 </div>
@@ -661,7 +667,7 @@ Weighting          : term frequency (tf)</code></pre>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>shootingTopTerms <span class="ot">&lt;-</span> model1Topics <span class="sc">%&gt;%</span></span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(topic) <span class="sc">%&gt;%</span></span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(beta, <span class="at">n =</span> <span class="dv">10</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(beta, <span class="at">n =</span> <span class="dv">10</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span></span>
 <span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(topic, <span class="sc">-</span>beta)</span>
 <span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
@@ -674,7 +680,7 @@ Weighting          : term frequency (tf)</code></pre>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="SlerkaProjekt_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="864"></p>
+<p><img src="SlerkaProjekt_files/figure-html/unnamed-chunk-10-1.webp" class="img-fluid figure-img" alt="Faceted bar charts showing top 10 terms per LDA topic across 12 CNN live-blog events" width="864"></p>
 </figure>
 </div>
 </div>
@@ -711,7 +717,7 @@ Weighting          : term frequency (tf)</code></pre>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="SlerkaProjekt_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid figure-img" width="864"></p>
+<p><img src="SlerkaProjekt_files/figure-html/unnamed-chunk-11-1.webp" class="img-fluid figure-img" alt="Boxplots of gamma topic probability by CNN event, showing topic specificity of the Prague shooting" width="864"></p>
 </figure>
 </div>
 </div>
@@ -735,6 +741,24 @@ document.addEventListener("DOMContentLoaded", function () {
       el.setAttribute("data-value", el.textContent.trim());
     }
   });
+
+  // Align category sidebar top to the listing section, so it doesn't float above the bio
+  function alignSidebarToListing() {
+    var sidebar = document.getElementById("quarto-margin-sidebar");
+    var listing = document.querySelector(".quarto-listing");
+    if (!sidebar || !listing) return;
+    sidebar.style.marginTop = "";
+    var offset = listing.getBoundingClientRect().top - sidebar.getBoundingClientRect().top;
+    if (offset > 0) sidebar.style.marginTop = offset + "px";
+  }
+  alignSidebarToListing();
+  window.addEventListener("resize", alignSidebarToListing);
+
+  // Toolbar icon-only links — add aria-label so Lighthouse SEO passes
+  var colorToggle = document.querySelector('.quarto-color-scheme-toggle');
+  if (colorToggle) colorToggle.setAttribute('aria-label', 'Toggle dark mode');
+  var readerToggle = document.querySelector('.quarto-reader-toggle');
+  if (readerToggle) readerToggle.setAttribute('aria-label', 'Toggle reader mode');
 
   // Filter sidebar buttons — data-category is base64(encodeURIComponent(name))
   document.querySelectorAll(".quarto-listing-category .category").forEach(function (el) {

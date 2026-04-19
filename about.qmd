@@ -1,9 +1,11 @@
 ---
 title: "About Me"
+description: "About Matyáš Levínský — researcher, data analyst, and author at PAQ Research."
 
 about:
   template: solana
-  image: data/GoodFoto.jpg
+  image: data/GoodFoto.webp
+  image-alt: "Matyáš Levínský"
   links:
     - icon: facebook
       text: facebook
@@ -18,4 +20,4 @@ about:
 
 Hello, I am Matyáš Levínský a sociology student at the philosophical faculty of the Charles University in Prague. I am primarily interested in the precarization of work due to the Gig economy, and AI. I try to follow hot topics, and as such am interested in AI itself.
 
-Since 2022 I am working at [PAQ Research](https://www.paqresearch.cz/) as a Data Analyst. You may find my entire CV [here](cv.qmd).
+Since 2022 I am working at [PAQ Research](https://www.paqresearch.cz/) as a Data Analyst. You may find [my full CV](cv.qmd).

@@ -19,6 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
   alignSidebarToListing();
   window.addEventListener("resize", alignSidebarToListing);
 
+  // Toolbar icon-only links — add aria-label so Lighthouse SEO passes
+  var colorToggle = document.querySelector('.quarto-color-scheme-toggle');
+  if (colorToggle) colorToggle.setAttribute('aria-label', 'Toggle dark mode');
+  var readerToggle = document.querySelector('.quarto-reader-toggle');
+  if (readerToggle) readerToggle.setAttribute('aria-label', 'Toggle reader mode');
+
   // Filter sidebar buttons — data-category is base64(encodeURIComponent(name))
   document.querySelectorAll(".quarto-listing-category .category").forEach(function (el) {
     var encoded = el.getAttribute("data-category");
