@@ -23,9 +23,11 @@ listing:
 :::
 
 ::: {.column width="67%"}
-Hi, I am Matyáš Levínský, a data analyst working at [PAQ Research](https://www.paqresearch.cz/). My work focuses on Czech municipal fragmentation, regional disparities and political structures. This includes everything from looking at municipal finances, electoral geography, housing policies to education outcomes. I studied urbanism at the Technical University in Berlin, and sociology at the Charles University in Prague.
+I am a sociologist and data analyst working at [PAQ Research](https://www.paqresearch.cz/). My work focuses on Czech municipal fragmentation, regional disparities and political structures. This includes everything from looking at municipal finances, electoral geography, housing policies to education outcomes. I studied urbanism at the Technical University in Berlin, and sociology at the Charles University in Prague.
 
-This site is a collection of my publications, with some occasional projects that interested me in between. If you are interested, you can find [my CV](cv.qmd).
+This site is a collection of my publications, with some occasional projects that interested me in between.
+
+[To my CV](cv.qmd)
 
 <div class="d-flex gap-2 mt-3">
 <a href="https://www.linkedin.com/in/matyaslevinsky/" class="btn btn-primary btn-sm"><i class="bi bi-linkedin"></i> LinkedIn</a>

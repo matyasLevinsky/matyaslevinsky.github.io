@@ -562,3 +562,22 @@ a { font-weight: $headings-font-weight; }
 
 // description: field is for SEO meta tag only — suppress visible subtitle
 #title-block-header .description { display: none; }
+
+// Stack the home page columns vertically on narrow mobile viewports
+@media (max-width: 499px) {
+  div.columns {
+    flex-direction: column;
+  }
+  div.column {
+    width: 100% !important;
+  }
+  div.column:empty {
+    display: none;
+  }
+  div.columns div.column:first-child {
+    text-align: center;
+  }
+  div.columns div.column:first-child img {
+    max-width: 200px;
+  }
+}
