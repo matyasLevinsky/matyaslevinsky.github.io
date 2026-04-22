@@ -16,7 +16,11 @@ listing:
 :::: {.columns}
 
 ::: {.column width="28%"}
-![](data/GoodFoto.webp){width=100% fig-alt="Matyáš Levínský"}
+<img src="data/GoodFoto-400w.webp"
+     alt="Matyáš Levínský"
+     width="400" height="600"
+     style="width:100%; height:auto"
+     fetchpriority="high">
 :::
 
 ::: {.column width="5%"}

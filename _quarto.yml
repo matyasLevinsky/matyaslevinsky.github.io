@@ -11,10 +11,6 @@ csl: data/apa.csl
 website:
   title: "Matyas Levinsky"
   back-to-top-navigation: true
-  reader-mode: true
-  
-  repo-url: https://github.com/matyasLevinsky/matyaslevinsky.github.io
-  repo-actions: [edit, source]
   site-url: "https://matyaslevinsky.github.io/"
   
   favicon: data/favicon32.png
