@@ -25,7 +25,8 @@ website:
     description: "Researcher at PAQ Research — housing, municipalities, Czech public policy."
     image: "data/GoodFoto.webp"
   google-analytics: "G-02CDV8B142"
-  
+  search: false
+
   navbar:
     left:
       - href: index.qmd
@@ -49,6 +50,7 @@ format:
     df-print: paged
     reference-location: margin
     citation-location: margin
+    html-math-method: plain
     fig-width: 9
     fig-height: 6
 
