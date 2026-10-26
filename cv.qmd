@@ -41,11 +41,12 @@ format-links: [pdf]
 
 ##### **Bachelor of Sociology --- Sociology**
 
-###### *Charles University* \| Aug 2020 --- Present
+###### *Charles University* \| Aug 2020 --- Feb 2026
 
--   Specializing in the study of work precarization and its impact on young adults in the gig and digital economies, demonstrating a deep understanding of contemporary labor issues and trends.
--   Participating in seminars and workshops on digital transformation and its impact on labor markets, in an attempt at understanding recent and predicting future societal changes.
--   Engaging in interdisciplinary coursework that combines sociology, economics, labor studies, and politology.
+-   Thesis: *"Změny mediálního sentimentu vůči alkoholu v České republice během debaty o alkoholové politice"* (*Changes in media sentiment toward alcohol in the Czech Republic during the alcohol policy debate*) – an LLM-assisted framing analysis of 7 720 Czech news articles (2023–2025), finding a gradual shift from slightly positive to neutral coverage.
+-   Specialized in the study of work precarization and its impact on young adults in the gig and digital economies, demonstrating a deep understanding of contemporary labor issues and trends.
+-   Participated in seminars and workshops on digital transformation and its impact on labor markets, in an attempt at understanding recent and predicting future societal changes.
+-   Engaged in interdisciplinary coursework that combined sociology, economics, labor studies, and politology.
 
 ##### **Bachelor of Architecture --- Urbanism**
 

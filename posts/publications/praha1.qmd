@@ -6,7 +6,7 @@ description: "Representative survey of Prague 1 residents on the impacts of over
 categories: [publication, second author, data analysis]
 ---
 
-A representative survey of Prague 1 residents (N ≈ 759, with a rest-of-Prague comparison group of ≈ 1,053) examining how over-tourism and transit traffic shape daily life in the historic center. One of the headline findings is a reframing of the usual "drivers versus pedestrians" narrative: the real dividing line residents draw is between "locals" and "outsiders" – transit traffic and non-resident parking annoy pedestrians and drivers alike.
+A representative survey of Prague 1 residents (N ≈ 759, with a rest-of-Prague comparison group of ≈ 1 053) examining how over-tourism and transit traffic shape daily life in the historic center. One of the headline findings is a reframing of the usual "drivers versus pedestrians" narrative: the real dividing line residents draw is between "locals" and "outsiders" – transit traffic and non-resident parking annoy pedestrians and drivers alike.
 
 Perhaps the most striking result, in retrospect, is that residents reported higher quality of life *during* the COVID-19 pandemic, when tourist numbers collapsed. With enough distance from the pandemic, it is now easier to acknowledge that, alongside its very real harms, it functioned as a natural experiment – one that would have been impossible to run deliberately – revealing just how much baseline quality of life in Prague 1 is depressed by overtourism.
 

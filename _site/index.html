@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,14 +43,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fb85a61929362cd3fc9682843a73b165.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b2a0d85e10550620cc79b9a89bae0729.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fb85a61929362cd3fc9682843a73b165.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7422a5e96e69449f86b93c168eb5a0a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-78916941975365ba4add7bc40a899766.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-7422a5e96e69449f86b93c168eb5a0a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -334,7 +337,7 @@ gtag('config', 'G-02CDV8B142', { 'anonymize_ip': true});
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="YXV0aG9y">author <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZGF0YSUyMGFuYWx5c2lz">data analysis <span class="quarto-category-count">(5)</span></div><div class="category" data-category="bGl0ZXJhdHVyZSUyMHJldmlldw==">literature review <span class="quarto-category-count">(6)</span></div><div class="category" data-category="cHJvamVjdA==">project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHVibGljYXRpb24=">publication <span class="quarto-category-count">(9)</span></div><div class="category" data-category="c2Vjb25kJTIwYXV0aG9y">second author <span class="quarto-category-count">(6)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="YXV0aG9y">author <span class="quarto-category-count">(7)</span></div><div class="category" data-category="ZGF0YSUyMGFuYWx5c2lz">data analysis <span class="quarto-category-count">(7)</span></div><div class="category" data-category="bGl0ZXJhdHVyZSUyMHJldmlldw==">literature review <span class="quarto-category-count">(6)</span></div><div class="category" data-category="cHJvamVjdA==">project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHVibGljYXRpb24=">publication <span class="quarto-category-count">(11)</span></div><div class="category" data-category="c2Vjb25kJTIwYXV0aG9y">second author <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -382,7 +385,61 @@ gtag('config', 'G-02CDV8B142', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="what-did-i-write">What did I write?</h2>
 <div id="listing-recent" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cHVibGljYXRpb24lMkNhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1771974000000" data-listing-file-modified-sort="1776624537932" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="777">
+<div class="quarto-post image-right" data-index="0" data-categories="cHVibGljYXRpb24lMkNhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1792101600000" data-listing-file-modified-sort="1793015823468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="452">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/publications/komunalni-volby.html" class="no-external">ANO and SPD lost especially in poorer regions, our analysis of municipal elections shows</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHVibGljYXRpb24='); return false;">publication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXV0aG9y'); return false;">author</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMGFuYWx5c2lz'); return false;">data analysis</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/publications/komunalni-volby.html" class="no-external">
+<p>Regional analysis of the 2026 Czech municipal elections showing ANO and SPD losing most in the poorer regions where they dominate nationally, STAN gaining, and turnout swinging sharply with the number of candidate lists.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/publications/komunalni-volby.html" class="no-external">
+<div class="listing-date">
+Oct 16, 2026
+</div>
+<div class="listing-reading-time">3 min</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="cHVibGljYXRpb24lMkNhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1790719200000" data-listing-file-modified-sort="1793015823467" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="482">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/publications/nemaji-koho-volit.html" class="no-external">In a tenth of municipalities they have neither a kindergarten nor competitive elections. We know the future councils of 1 052 municipalities weeks before the election</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHVibGljYXRpb24='); return false;">publication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXV0aG9y'); return false;">author</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMGFuYWx5c2lz'); return false;">data analysis</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/publications/nemaji-koho-volit.html" class="no-external">
+<p>Pre-election analysis of candidate lists for the 2026 Czech municipal elections showing that nearly a third of municipalities face non-competitive elections, and linking that democratic deficit to fragmentation and the lack of local services.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/publications/nemaji-koho-volit.html" class="no-external">
+<div class="listing-date">
+Sep 30, 2026
+</div>
+<div class="listing-reading-time">3 min</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="cHVibGljYXRpb24lMkNhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1771974000000" data-listing-file-modified-sort="1793012448352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="777">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/publications/rozdrobene-obce.html" class="no-external">Fragmented municipalities, expensive services, overstretched mayors. The answer is a reform of the community-of-municipalities institute</a>
@@ -409,7 +466,7 @@ Feb 25, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1762815600000" data-listing-file-modified-sort="1776624539833" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
+<div class="quarto-post image-right" data-index="3" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1762815600000" data-listing-file-modified-sort="1793012448352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/publications/spoluprace.html" class="no-external">Cooperation, investment, and strong centres. Reforming RUD can improve life in the regions</a>
@@ -436,7 +493,7 @@ Nov 11, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="cHVibGljYXRpb24lMkNhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1759528800000" data-listing-file-modified-sort="1776624526960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="379">
+<div class="quarto-post image-right" data-index="4" data-categories="cHVibGljYXRpb24lMkNhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1759528800000" data-listing-file-modified-sort="1793012448352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="379">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/publications/ano-vysalo.html" class="no-external">ANO has absorbed the anti-system parties. The former coalition hits a ceiling in poorer microregions, where turnout also rose</a>
@@ -463,7 +520,7 @@ Oct 4, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="cHVibGljYXRpb24lMkNhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1744754400000" data-listing-file-modified-sort="1776624532263" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="577">
+<div class="quarto-post image-right" data-index="5" data-categories="cHVibGljYXRpb24lMkNhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1744754400000" data-listing-file-modified-sort="1793012448352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="577">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/publications/levice-zmizela.html" class="no-external">The left has vanished, ANO votes in cities, the Christian Democrats have the most councillors. A look at Czech municipal elections</a>
@@ -490,7 +547,7 @@ Apr 16, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1743631200000" data-listing-file-modified-sort="1776624535035" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<div class="quarto-post image-right" data-index="6" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1743631200000" data-listing-file-modified-sort="1793012448352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/publications/ochrana-chudsich.html" class="no-external">Protecting lower-income owners, incentives to build and rent. A smarter way to tax real estate</a>
@@ -517,7 +574,7 @@ Apr 3, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1713304800000" data-listing-file-modified-sort="1776624525093" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
+<div class="quarto-post image-right" data-index="7" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1713304800000" data-listing-file-modified-sort="1793012448352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/publications/10-mytu.html" class="no-external">10 myths about taxing wine</a>
@@ -544,7 +601,7 @@ Apr 17, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1712181600000" data-listing-file-modified-sort="1776624528933" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
+<div class="quarto-post image-right" data-index="8" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNsaXRlcmF0dXJlJTIwcmV2aWV3" data-listing-date-sort="1712181600000" data-listing-file-modified-sort="1793012448352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/publications/filantropie.html" class="no-external">Czechia is not falling behind in philanthropy, but the state could do more to encourage giving</a>
@@ -571,7 +628,7 @@ Apr 4, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="cHJvamVjdCUyQ2F1dGhvciUyQ2xpdGVyYXR1cmUlMjByZXZpZXc=" data-listing-date-sort="1710889200000" data-listing-file-modified-sort="1776624520776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2652">
+<div class="quarto-post image-right" data-index="9" data-categories="cHJvamVjdCUyQ2F1dGhvciUyQ2xpdGVyYXR1cmUlMjByZXZpZXc=" data-listing-date-sort="1710889200000" data-listing-file-modified-sort="1776624520776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2652">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/projects/AIHypeCycles.html" class="no-external">Analyzing AI Hype: Past and Present Booms</a>
@@ -598,7 +655,7 @@ Mar 20, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="cHJvamVjdCUyQ2F1dGhvciUyQ2RhdGElMjBhbmFseXNpcw==" data-listing-date-sort="1709161200000" data-listing-file-modified-sort="1776624523218" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1421">
+<div class="quarto-post image-right" data-index="10" data-categories="cHJvamVjdCUyQ2F1dGhvciUyQ2RhdGElMjBhbmFseXNpcw==" data-listing-date-sort="1709161200000" data-listing-file-modified-sort="1776624523218" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1421">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/projects/SlerkaProjekt.html" class="no-external">Analyzing the CNN coverage of the Prague University shooting</a>
@@ -625,7 +682,7 @@ Feb 29, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1681682400000" data-listing-file-modified-sort="1776624530380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
+<div class="quarto-post image-right" data-index="11" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1681682400000" data-listing-file-modified-sort="1793012448352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="237">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/publications/integrace.html" class="no-external">Ukrainian refugee integration: one year on</a>
@@ -652,7 +709,7 @@ Apr 17, 2023
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1678834800000" data-listing-file-modified-sort="1776624536087" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
+<div class="quarto-post image-right" data-index="12" data-categories="cHVibGljYXRpb24lMkNzZWNvbmQlMjBhdXRob3IlMkNkYXRhJTIwYW5hbHlzaXM=" data-listing-date-sort="1678834800000" data-listing-file-modified-sort="1793012448352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/publications/praha1.html" class="no-external">Residents of Prague 1 are troubled by tourism and transit traffic</a>

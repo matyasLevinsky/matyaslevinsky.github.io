@@ -1,0 +1,17 @@
+---
+title: "ANO and SPD lost especially in poorer regions, our analysis of municipal elections shows"
+canonical-url: https://matyaslevinsky.github.io/posts/publications/komunalni-volby.html
+date: 2026-10-16
+description: "Regional analysis of the 2026 Czech municipal elections showing ANO and SPD losing most in the poorer regions where they dominate nationally, STAN gaining, and turnout swinging sharply with the number of candidate lists."
+categories: [publication, author, data analysis]
+---
+
+A regional analysis of the 2026 Czech municipal elections, written as a follow-up to our analysis of the 2025 parliamentary vote. Municipal results are hard to read at face value: raw vote totals overweight large cities (a Prague voter casts 65 votes, a voter in a seven-seat village casts seven), while raw seat counts overweight small municipalities (one Prague council seat represents roughly 21 647 residents – the same population as 2 040 councillors from 322 small municipalities). The piece therefore measures party strength as the share of the population each party represents, computed at the ORP (microregion) level and weighted by population. Independents elected on party or coalition lists are attributed proportionally to the nominating parties, which reassigns 4 070 mandates (6.6 %).
+
+The headline finding is that ANO and SPD, while ANO remains the strongest party nationally, lost the most of any established national party – and that they lost most precisely where they had dominated a year earlier. ANO fell by 4.8 points in the Karlovy Vary region, 4.3 in Ústí, and 3.3 in Moravia-Silesia, while SPD lost more than 5 points in both Ústí and Moravia-Silesia and did not make it into the councils of most regional cities. These are the regions where ANO took 42–45 % in the 2025 parliamentary elections, against 34.5 % nationally. Ústí nad Labem itself, governed by ANO for eight years, was won by a broad coalition of local movements and opposition parties. STAN was the only large parliamentary party with a clear gain – up 3.2 points nationally and nearly 13 points in Prague – though more than half of its candidates ran on coalition lists, so the official data understate its strength. Independents remain by far the largest bloc, representing 34.7 % of the population (up 3.6 points), with ANO second at 12.6 %.
+
+Turnout tells a second story. The national average rose 1.9 points to 48 %, but it rose least or stagnated in the poorer regions – and fell outright in the Cheb, Karlovy Vary, and Karviná districts. Far more decisive than region, however, was whether voters had any choice at all: municipalities that became competitive saw turnout rise by 20.5 points on average, while those that lost competition saw it fall by 15.7 points, with dozens of municipalities swinging by 35–50 points. The piece closes by pointing to the fifty measures for developing poorer regions that the government's National Economic Council (NERV) proposed last year, which the government has not yet taken up, and to the two reforms PAQ considers priorities – a more efficient RUD tax-allocation system and inter-municipal cooperation through *společenství obcí*.
+
+I am the lead author of this piece, written together with Jakub Stuchlík and Daniel Prokop.
+
+[Read the original study →](https://www.paqresearch.cz/post/ano-a-spd-propadly-v-chudsich-krajich-ukazuje-analyza-komunalnich-voleb/)

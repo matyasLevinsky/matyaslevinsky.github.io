@@ -2,6 +2,8 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/posts/publications/komunalni-volby.html",
+      "/posts/publications/nemaji-koho-volit.html",
       "/posts/publications/rozdrobene-obce.html",
       "/posts/publications/spoluprace.html",
       "/posts/publications/ano-vysalo.html",
@@ -16,6 +18,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/publications/komunalni-volby.html",
+      "/posts/publications/nemaji-koho-volit.html",
       "/posts/publications/rozdrobene-obce.html",
       "/posts/publications/spoluprace.html",
       "/posts/publications/ano-vysalo.html",
